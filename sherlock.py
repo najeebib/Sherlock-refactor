@@ -21,10 +21,10 @@ import requests
 
 from requests_futures.sessions import FuturesSession
 from torrequest import TorRequest
-from result import QueryStatus
-from result import QueryResult
-from notify import QueryNotifyPrint
-from sites import SitesInformation
+from .modules.result import QueryStatus
+from .modules.result import QueryResult
+from .modules.notify import QueryNotifyPrint
+from .modules.sites import SitesInformation
 from colorama import init
 from argparse import ArgumentTypeError
 
